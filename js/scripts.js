@@ -1,20 +1,20 @@
-const myName = "Ryeker";//declared AND defined
-console.log(myName, "One");
-{
-  const myName = "Stasia"
-  console.log(myName, "Two");
-};
+// PROMPT TAKE HOME 2
 
-  console.log(myName, "Three");
-
-var test; //declared
-test = 'My test is that I am awesome';//defined
-
-// console.log(test);
-// let birthday = '3/7/95';
-// let rightNow = new Date (birthday);
-// alert(rightNow);
-
-// PROMPT
-const userName = prompt("hahahah?");
+const userName = prompt("Hey you!! I'm a little short on funds and might want to steal your identity if that's cool with you. Let's start with your first name.. ");
 console.log(userName);
+
+alert(userName +"? That's dope, but I'm also gonna need your last name..");
+
+const userLast = prompt("well? I'm waiting... ");
+
+alert(userLast + "? sweet! I think that's all I need.")
+
+const userBirth = prompt("WAIT! I forgot I also need your birthday duh. What kind of criminal am I? Don't forget to write it as MM/DD/YYYY")
+
+userAnswer = new Date(userBirth);
+
+alert(userAnswer + "  dang....");
+
+stasiaCoffee = prompt("Will Ryeker bring more coffee next class so stasia can be properly caffeinated? (hint: yes)");
+
+alert("sweet ryeker is the GOAT!!!");
