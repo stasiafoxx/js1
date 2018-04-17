@@ -32,14 +32,14 @@
 // alert(
 //   isNan((parseInt(myNumber) / 2))
 // );
-// let string = prompt("Whats yo favorite number?!?!")
+let string = prompt("Whats yo favorite number?!?!")
+
+string.toString();
+
+alert(`Your favorite number is ${string}`);
+
+// let myNumber = prompt("whats yo favorite number?");
+// 
+// myNumber = parsInt(myNumber);
 //
-// string.toString();
-//
-// alert(`Your favorite number is ${string}`);
-
-let myNumber = prompt("whats yo favorite number?");
-
-myNumber = parsInt(myNumber);
-
-alert(myNumber + 42, myNumber - 42, myNumber * 42, myNumber / 42);
+// alert(myNumber + 42, myNumber - 42, myNumber * 42, myNumber / 42);
