@@ -1,63 +1,26 @@
-// let cars = ["jeep", "subaru", "honda"];
-// // console.log(cars[1]);
-// // console.log(cars[1].length);
-// cars.push("bmw");
-// console.log(cars);
+// let favoriteMovie = [];
+
+let firstFavorite = ['The Fundamentals of Caring', 'Trevor Conklin', 2016];
+let secondFavorite = ['10 Things I hate About You', 'Patrick Verona', 1999];
+let thirdFavorite = ['Lords of Dogtown', 'Tony Alva', 2005];
+let fourthFavorite = ['Ready Player One', 'Parzival', 2018];
+let fifthFavorite = ['Jarhead', 'Jake Gyllenhaal', 2005];
+
+let favoriteMovie = [];
+favoriteMovie.push(firstFavorite, secondFavorite, thirdFavorite, fourthFavorite, fifthFavorite);
+
+for (let i = 0; i < favoriteMovie.length; i++) {
+  if(favoriteMovie[i][0] === 'The Fundamentals of Caring'){
+  alert(favoriteMovie [i][0], favoriteMovie [i][2]);
+  }
+}
+
+
+
+// const titles = [];
+// const faveAndLeastFave = [];
 //
-// var removedCar = cars.pop()
-// console.log(cars);
-
-let arr = ["Christa", "Abel", "Gideon", "Zeta", "Bobby"];
-
-let backwards = arr.sort();
-console.log(backwards);
-
-// let bestEver = arr.slice();
+// titles.push(movie1[0], movie2[0], movie3[0], movie4[0], movie5[0]);
+// console.log(favoriteMovie);
 //
-// let noCoteacher = arr.slice(0);
-//
-// let teacherIndex = arr.indexOf("ryeker");
-//
-// let onlyStudents = arr.splice(teacherIndex, 1);
-//
-// console.log(teacherIndex);
-
-// bestEver.push('Christa');
-
-// arr.shift();
-// console.log(arr);
-
-
-
-// function chooseAdventure() {
-//     while (true) {
-//         var location = prompt("Would you like to go to the store or relax at home? Respond by typing store or home", 'store, home');
-//         if (location == "store") {
-//             var what = prompt("Are you going to bake or bbq?", 'bake, bbq');
-//         }
-//         if (what == "bake") {
-//             prompt("You made some awesome cupcakes!");
-//             break;
-//         }
-//         if(what == "bbq") {
-//             prompt("You made some awesome kabobs!");
-//             break;
-//         }
-//         if (location == "home") {
-//             var activity = prompt("Would you like to go to watch netflix or go swimming?", 'netflix, swimming');
-//         }
-//         if (activity == "netflix") {
-//             alerts("You watched Jessica Jones");
-//             break;
-//         }
-//         if (activity == "swimming") {
-//             prompt("You cooled off in the pool");
-//             break;
-//         }
-//         else {
-//             prompt("Sorry, you entered the wrong input or it wasn't lower-case.");
-//             break;
-//         }
-//     }
-// }
-// chooseAdventure();
+// alert(favoriteMovie);
