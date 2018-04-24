@@ -14,9 +14,9 @@ for (let i = 0; i < favoriteMovie.length; i++) {
   alert(favoriteMovie [i][0], favoriteMovie [i][2]);
   }
 }
+.....
 
-
-
+// 
 // const titles = [];
 // const faveAndLeastFave = [];
 //
