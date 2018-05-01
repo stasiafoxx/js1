@@ -20,9 +20,12 @@
 //
 // alert(`Your pupper is ${dogAge} years old!! Heckin CUTE!`);
 
-let cheeseAge = parseInt(prompt("Let's figure out much cheese you would need for your WHOLE LIFE! \n\n First of all, how old are you?"));
-
-function(cheeseAge, amountPerDay) {
+function calcLifetime(cheeseAge, amountPerDay) {
   const yearsLeft = 80 - cheeseAge
-  yearsLeft * 365
+  return (yearsLeft * 365) * amountPerDay
 }
+
+let ageOfUser = parseInt(prompt("Let's figure out much cheese you would need for your WHOLE LIFE! \n\n First of all, how old are you?", "23"));
+let dailyUsage = parseInt(prompt("Now, how much cheese are you eating per day? (in lbs of course)"));
+
+if(!isNan(ageOfUser)&&)
